@@ -52,12 +52,15 @@ namespace Blackjack
             debugWin.Location = new Point(10,10);
             debugWin.Size = new Size(100,25);
             debugWin.Text = "Force Win";
+            debugWin.Click += new EventHandler(win);
             debugLose.Location = new Point(120,10);
             debugLose.Size = new Size(100,25);
             debugLose.Text = "Force Loose";
+            debugLose.Click += new EventHandler(lose);
             debugBlackjack.Location = new Point(230,10);
             debugBlackjack.Size = new Size(100,25);
             debugBlackjack.Text = "BlackJack";
+            debugBlackjack.Click += new EventHandler(blackjackWin);
             //DEBUG END
             balance.Text = bal.ToString();
             balance.Font = new Font("Helvetica",10);
@@ -85,6 +88,20 @@ namespace Blackjack
             if ((bal-bet)>0){bal-=bet;}
             balance.Text = bal.ToString();
             betLabel.Text = bet.ToString();
+        }
+        public void win(object sender, EventArgs e){
+            bet*=2;
+            bal+=bet;
+            bet=0;
+        }
+        public void lose(object sender, EventArgs e){
+            bet=0;
+        }
+        public void blackjackWin(object sender, EventArgs e){
+            bet*=5;
+            bet/=2;
+            bal+=bet;
+            bet=0;
         }
     }
 }
