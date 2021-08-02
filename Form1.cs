@@ -16,6 +16,7 @@ namespace Blackjack
         Label balance = new Label();
         TextBox betBox = new TextBox();
         Button betButton = new Button();
+        Panel bets = new Panel();
         int bal=100;
         public Form1()
         {
@@ -26,16 +27,31 @@ namespace Blackjack
             this.MaximumSize = new Size(500,500);
             this.Text = ".NET Blackjack";
             //add objects
-            this.Controls.Add(betButton);
-            this.Controls.Add(betBox);
-            this.Controls.Add(balance);
-            System.Diagnostics.Debug.WriteLine(bal.ToString()); //testing .ToString()
+            this.Controls.Add(bets);
+            bets.Controls.Add(betButton);
+            bets.Controls.Add(betBox);
+            bets.Controls.Add(balance);
+            bets.Location = new Point(0,250);
+            bets.Size = new Size(250,80);
+            bets.BackColor = Color.Azure; //Debug. To see where the panel is
+
             balance.Text = bal.ToString();
-            balance.Font = new Font("Helvetica",20);
+            balance.Font = new Font("Helvetica",10);
             balance.AutoSize = false;
             balance.TextAlign = ContentAlignment.TopCenter;
-            balance.Location = new Point(125,250);
+            balance.Location = new Point(0,10);
             balance.Size = new Size(250,50);
+
+            betBox.AutoSize=false;
+            //betBox.Text = "lokiujhygtfr"; //debug
+            betBox.Font = new Font("Helvetica", 10);
+            betBox.Location = new Point(125-50,30);
+            betBox.Size= new Size(100,20);
+
+            betButton.Location = new Point(125-25,50);
+            betButton.Size = new Size(50,20);
+            betButton.Text="Bet";
+            betButton.Font= new Font("Helvetica",7);
 
             
             
