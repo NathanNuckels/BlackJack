@@ -92,7 +92,9 @@ namespace Blackjack
         public void win(object sender, EventArgs e){
             bet*=2;
             bal+=bet;
+            betLabel.Text=bet.ToString();
             bet=0;
+            balance.Text=bal.ToString();
         }
         public void lose(object sender, EventArgs e){
             bet=0;
@@ -101,6 +103,8 @@ namespace Blackjack
             bet*=5;
             bet/=2;
             bal+=bet;
+            betLabel.Text=bet.ToString();
+            balance.Text=bal.ToString();
             bet=0;
         }
     }
