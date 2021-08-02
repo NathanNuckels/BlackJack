@@ -37,31 +37,25 @@ namespace Blackjack
             bets.Location = new Point(0,250);
             bets.Size = new Size(250,80);
             bets.BackColor = Color.Azure; //Debug. To see where the panel is
-
             balance.Text = bal.ToString();
             balance.Font = new Font("Helvetica",10);
             balance.AutoSize = false;
             balance.Location = new Point(125-50,10);
             balance.Size = new Size(50,50);
-
             betBox.AutoSize=false;
             //betBox.Text = "lokiujhygtfr"; //debug
             betBox.Font = new Font("Helvetica", 10);
             betBox.Location = new Point(125-50,30);
             betBox.Size= new Size(100,20);
-
             betButton.Location = new Point(125-25,50);
             betButton.Size = new Size(50,20);
             betButton.Text="Bet";
             betButton.Font= new Font("Helvetica",7);
-
             betLabel.Location = new Point(125,10);
             betLabel.Size = new Size(50,999); //TEMP
             betLabel.TextAlign = ContentAlignment.TopRight;
             betLabel.Text=bet.ToString();
 
-            
-            
         }
 
     }
