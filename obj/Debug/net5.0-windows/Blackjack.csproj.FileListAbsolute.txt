@@ -1,0 +1,16 @@
+C:\Users\Natha\Desktop\!CS\Blackjack\bin\Debug\net5.0-windows\Blackjack.exe
+C:\Users\Natha\Desktop\!CS\Blackjack\bin\Debug\net5.0-windows\Blackjack.deps.json
+C:\Users\Natha\Desktop\!CS\Blackjack\bin\Debug\net5.0-windows\Blackjack.runtimeconfig.json
+C:\Users\Natha\Desktop\!CS\Blackjack\bin\Debug\net5.0-windows\Blackjack.runtimeconfig.dev.json
+C:\Users\Natha\Desktop\!CS\Blackjack\bin\Debug\net5.0-windows\Blackjack.dll
+C:\Users\Natha\Desktop\!CS\Blackjack\bin\Debug\net5.0-windows\ref\Blackjack.dll
+C:\Users\Natha\Desktop\!CS\Blackjack\bin\Debug\net5.0-windows\Blackjack.pdb
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\Blackjack.csproj.AssemblyReference.cache
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\Blackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\Blackjack.AssemblyInfoInputs.cache
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\Blackjack.AssemblyInfo.cs
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\Blackjack.csproj.CoreCompileInputs.cache
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\Blackjack.dll
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\ref\Blackjack.dll
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\Blackjack.pdb
+C:\Users\Natha\Desktop\!CS\Blackjack\obj\Debug\net5.0-windows\Blackjack.genruntimeconfig.cache
